@@ -1,19 +1,26 @@
 h2 {
-  font-size: 60px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 90px;
+}
+
+h4, button {
+  font-family: 'Skia', sans-serif;
+  font-size: 20px;
 }
 
 .jumbotron {
   text-align: center;
-  background-color: green;
+  background-color: blue;
   color: snow;
 }
 
 #input {
-  width: 30%;
+  width: 25%;
 }
 
 #output {
-  color: green;
+  font-family: 'Indie Flower', cursive;
+  color: orange;
   font-size: 130px;
-  font-style: helvetica;
+  margin-left: 20px;
 }

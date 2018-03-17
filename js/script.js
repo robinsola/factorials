@@ -1,8 +1,8 @@
 // Business Logic:
 
-var numbers = 1;
 
 var factorial = function(numberInput) {
+  var numbers = 1;
   for (var i=2; i <= numberInput; i++) {
     numbers *= i;
   }
@@ -17,7 +17,7 @@ $(document).ready(function() {
 
     var numberInput = parseInt($("#number").val());
     var result = factorial(numberInput);
-
+      $(".teaser").hide();
       $("#output").text(result);
   });
 });
