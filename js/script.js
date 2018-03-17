@@ -18,8 +18,6 @@ $(document).ready(function() {
     var numberInput = parseInt($("#number").val());
     if (isNaN(numberInput) || (numberInput === " ")) {
       alert("That's not a number! Fox Wins!");
-    } else if (numberInput === 0) {
-      alert("No factorial for zero! Fox Wins!");
     } else {
       var result = factorial(numberInput);
       $(".teaser").hide();
