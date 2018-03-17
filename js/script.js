@@ -2,18 +2,22 @@
 
 var numbers = 1;
 
+var factorial = function(numberInput) {
+  for (var i=2; i <= numberInput; i++) {
+    numbers *= i;
+  }
+  return numbers;
+}
+
 // User Logic:
 
 $(document).ready(function() {
   $("#input").submit(function(e) {
     e.preventDefault();
 
-    var number1 = parseInt($("#number").val());
+    var numberInput = parseInt($("#number").val());
+    var result = factorial(numberInput);
 
-    for (var i=1; i <= number1; i++) {
-      numbers = numbers * i;
-    }
-
-      $("#output").text(numbers);
+      $("#output").text(result);
   });
 });

@@ -1,0 +1,19 @@
+h2 {
+  font-size: 60px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: green;
+  color: snow;
+}
+
+#input {
+  width: 30%;
+}
+
+#output {
+  color: green;
+  font-size: 130px;
+  font-style: helvetica;
+}
